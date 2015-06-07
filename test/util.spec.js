@@ -24,4 +24,13 @@ describe('util', function () {
             expect(result.length).toBe(5);
         });
     });
+
+    describe('get formate time', function () {
+        it('return specified format time', function () {
+            var date = new Date(2014, 8, 12, 9, 12, 56);
+            var formatTime = util.getFormatTime(date, 'YYYY-MM-DD-HH-mm-SS');
+
+            expect(formatTime).toBe('2014-09-12-09-12-56');
+        });
+    });
 });
