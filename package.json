@@ -1,6 +1,6 @@
 {
   "name": "edp-build-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "provide some useful utilities for edp-build",
   "main": "index.js",
   "scripts": {
